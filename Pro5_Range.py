@@ -1,3 +1,4 @@
 num = int(input("Enter A Number -->"))
-for n in range (1, 11, 1):
-    print(num * n)
+x = range (10)
+for n in x:
+    print(num * (n+1))
