@@ -1,4 +1,3 @@
-
 a = ['Gautam', 'Hello', 'asdklj', 34, 21,  42.2]
 inn = 2
 s = 'ge'
