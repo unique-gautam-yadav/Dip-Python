@@ -1,13 +1,4 @@
 a = ['Gautam', 'Hello', 'asdklj', 34, 21,  42.2]
-inn = 2
-s = 'ge'
-f = 3.3
-
-
-inn = type(inn)
-s = type(s)
-f = type(f)
-
 
 strings = 0
 intger = 0
@@ -15,12 +6,13 @@ floats = 0
 
 
 for i in a:
-    if (type(i) == inn):
+    if (type(i) == type(2)):
         intger += 1
-    elif (type(i) == s):
+    elif (type(i) == type('str')):
         strings += 1
-    elif (type(i) == f):
+    elif (type(i) == type(5.25)):
         floats += 1
 
 
-print('Strings =', strings, 'integers =', intger, 'floats =', floats)
+print(' Strings =', strings, '\n', 'Integers =',
+      intger, '\n', 'Floats =', floats)
