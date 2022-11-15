@@ -1,4 +1,4 @@
-from Pro25_Class import *
+from tasks.Pro25_Class import *
 
 obj = Abc(10, 20)
 
